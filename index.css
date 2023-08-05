@@ -1,0 +1,121 @@
+/* *{
+    background: rgb(0 100 0 / 0.1) !important;
+    outline: 1px solid limegreen !important
+} */
+
+@font-face {
+    font-family: scoreBoardFont;
+    src: url("fonts/CursedTimerUlil-Aznm.ttf");
+}
+
+body {
+    margin: 0px;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    background-color: 1B244A;
+    box-sizing: border-box;
+}
+
+
+/* Structure */
+.container {
+    width: 600px;
+    height: fit-content;
+    margin: 10px auto;
+    border: 1px solid #9AABD8;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.inner-container {
+    width: 155px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.scoreboard-container {
+    background-color: 080001;
+    width: 155px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 21px 0px 0px 0px;
+}
+
+
+/* Styling titles*/
+h1 {
+    color: F94F6D;
+    font-size: 80px;
+    font-family: scoreBoardFont;
+    position: relative;
+    bottom: -5px;
+}
+
+#main-title {
+    color: F94F6D;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
+}
+
+#main-title-div {
+    display: block;
+    width: 600px;
+    margin: 10px auto;
+}
+
+#reset-btn {
+    background-color: F94F6D;
+    border: none;
+    line-height: 30px;
+    width: 600px;
+    margin: 0 auto;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    margin: 68px 0px 0px 0px;
+}
+
+/* Styling scoreboards */
+.scoreboards-container {
+    color: 080001;
+    margin: 21px 0px 0px 0px;
+}
+
+.button-container {
+    width: 155px;
+    height: 45px;
+    margin: 26px 0 69px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Styling buttons */
+button {
+    border: 1px solid #9AABD8;
+    margin: 0px;
+    font-family: scoreBoardFont;
+    color: 9AABD8;
+    background-color: 1B244A;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 0 10px;
+    height: 40px;
+}
+
+button:hover {
+    cursor: pointer;
+}
