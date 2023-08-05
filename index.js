@@ -34,8 +34,8 @@ function guest3() {
 }
 
 function reset() {
-    homeCount.textContent = 0;
+    homeCount = 0;
     homeScore.textContent = 0;
     guestCount = 0;
-    guestScore = 0;
+    guestScore.textContent = 0;
 }
